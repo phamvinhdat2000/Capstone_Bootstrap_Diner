@@ -1,0 +1,31 @@
+/* ------------GLOBAL------------ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+/* font-family: 'Pacifico', cursive; */
+background: #232220;
+color: #c2d0da;
+font-family: 'Quicksand', sans-serif;
+}
+.title-top{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color:#ff6600 ;
+    font-family: 'Pacifico', cursive;
+    display: block;
+}
+.title-bottom{
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+/* -----------PRIVATE------------  */
+
+/* header */
