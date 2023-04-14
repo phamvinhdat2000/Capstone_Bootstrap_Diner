@@ -9,6 +9,7 @@
 html,
 body {
     background: #232220;
+    /* background: #ff6600; */
     color: #c2d0da;
     font-family: 'Quicksand', sans-serif;
 }
@@ -28,6 +29,8 @@ body {
     line-height: 48px;
     font-weight: 600;
 }
+
+
 
 /* -----------PRIVATE------------  */
 
@@ -131,7 +134,6 @@ body {
 .header__overlay .nav-item .nav-link:hover {
     color: #ff6600;
 }
-
 /* my carousel  */
 .my-carousel {
     background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../img/banner1.jpg);
@@ -177,6 +179,106 @@ body {
 }
 
 
+/* .about */
+.about__content {
+    display: flex;
+}
+
+
+h6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #ff6600;
+    display: block;
+    font-family: 'Pacifico', cursive;
+}
+
+h3 {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+/* best  */
+.best {
+    background-color: #ff6600;
+    display: flex;
+}
+/* left  */
+
+.header__right .nav-trigger {
+    font-size: 1.95em;
+    padding: 0 8px;
+    color: #fbfdfb;
+}
+
+.header__overlay{
+    position: fixed;
+    width: 100%;
+    
+}
+
+.best__left img::before {
+    content: "";
+    background: rgb(16 15 19 46%);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.header__overlay .header__btn{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    border:none;
+    background: #ff6600;
+    border-radius: 6px;
+    color: #fff;
+}
+.header__overlay nav{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header__overlay .nav-item .nav-link{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    transition: all .2s;
+}
+.header__overlay .nav-item .nav-link:hover{
+    color: #ff6600;
+}
+/* my carousel  */
+.my-carousel {
+    background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../img/banner1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    height: 700px;
+}
+
+.my-carousel__info {
+    max-width: 600px;
+    color: #fff;
+}
+
+.best__right__text p {
+    color: #ffdfc9;
+}
+
+.best__right__comment .icon i {
+    background-color: #fff;
+}
+
+
 /* about  */
 
 
@@ -209,6 +311,8 @@ body {
 
 
 /* footer  */
+
+
 
 
 
