@@ -55,5 +55,19 @@
 
 .info a:hover {
     color: #ff6600;
+}
 
+/* REPONSIVE  */
+
+@media (max-width: 1080px) {
+.class__h3 {
+    font-size: 32px !important;
+    line-height: 40px;
+}
+}
+
+@media (max-width: 1080px) {
+.product__item__top .info h4 a {
+    font-size: 20px;
+}
 }

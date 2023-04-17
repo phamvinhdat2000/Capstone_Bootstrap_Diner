@@ -165,12 +165,9 @@ body {
     background-color: #fff;
 }
 
-.about__content {
-    display: flex;
-}
 
 
-h6 {
+.class__h6 {
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -180,13 +177,13 @@ h6 {
     font-family: 'Pacifico', cursive;
 }
 
-h3 {
+.class__h3 {
     font-size: 38px;
     line-height: 48px;
     font-weight: 600;
     color: #232220;
 }
-p {
+.class__p {
     margin: 0;
     padding: 0;
     font-size: 18px;
@@ -197,7 +194,6 @@ p {
 /* best  */
 .best {
     background-color: #ff6600;
-    display: flex;
 }
 
 /* left  */
@@ -229,6 +225,7 @@ p {
     }
 /* right */
 
+/* best  */
 .best__right__comment a {
 text-decoration: none;
 }
@@ -288,5 +285,9 @@ text-decoration: none;
     color: #ffdfc9;
 }
 
+.best__right__comment-gd .icon:hover i{
+    color:#ffc600 ;
+    transition: .3s;
+}
 
 
