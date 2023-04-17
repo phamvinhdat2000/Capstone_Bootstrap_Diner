@@ -13,6 +13,8 @@
     rel="stylesheet">
   <!-- theme icon  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/font-awesome-line-awesome/css/all.min.css">
   <!-- bootstrap  -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -145,7 +147,8 @@
           <div class="best__right__text p-md-5 p-3">
             <h6 class="class__h6">More than 3000 Restaurants</h6>
             <h3 class="class__h3">Book a table easly at the best price</h3>
-            <p class="class__p">Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis
+            <p class="class__p">Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit
+              amet mattis
               quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
             <div class="best__right__comment mt-5">
               <div class="best__right__comment-gd">
@@ -220,7 +223,7 @@
                 <i class="fa-solid fa-temperature-three-quarters"></i>
               </div>
               <div class="info">
-                <p class="class__p" >03</p>
+                <p class="class__p">03</p>
                 <h4><a href="#">Pizza</a></h4>
               </div>
             </div>
@@ -328,11 +331,24 @@
     crossorigin="anonymous"></script>
   <!-- main js  -->
   <script>
-    $('.counter').counterUp({
-      time: 3000
-    }
-    );
-
+    // ------------- open/close menu -------------
+    var navTrigger = document.getElementById("nav-trigger")
+    var overlay = document.getElementById("header__overlay");
+    var btnClose = document.getElementById("header__btn");
+    var navMenu = document.getElementById("nav-menu");
+    var navList = navMenu.getElementsByTagName("li");
+    btnClose.onclick = function () {
+      overlay.classList.remove("open");
+      for (var i = 0; i < navList.length; i++) {
+        navList[i].classList += " py-3";
+      };
+    };
+    navTrigger.onclick = function () {
+      overlay.classList += " open";
+      for (var i = 0; i < navList.length; i++) {
+        navList[i].classList.remove("py-3");
+      };
+    };
   </script>
 </body>
 
