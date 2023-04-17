@@ -23,9 +23,92 @@
 
 <body>
     <!-- header  -->
-    <header></header>
-    <!-- my carousel  -->
-    <section class="my-carousel"></section>
+    <header class="position-absolute w-100">
+        <div class="container">
+          <div class="row header__content w-100 align-items-center m-0 px-0">
+            <div class="col-5 col-md-7 col-lg-8 px-0">
+              <div class="header__left">
+                <div class="header__logo">
+                  <a href="#" class="text-decoration-none">Diner</a>
+                </div>
+    
+              </div>
+            </div>
+            <div class="col-7 col-md-5 col-lg-4 ml-auto">
+              <div class="header__right row align-items-center">
+                <div class="col-7 col-sm-8 px-0">
+                  <div class="header__search position-relative">
+                    <form action="#">
+                      <input class="w-100" type="search" placeholder="Search here.." aria-label="Search">
+                      <i class="fa-solid fa-magnifying-glass position-absolute"></i>
+                    </form>
+                  </div>
+    
+                </div>
+                <div class="col-2 col-sm-2 p-0">
+                  <div class="mode text-center m-0">
+                    <i class="fa fa-sun"></i>
+                  </div>
+                </div>
+                <div class="col-3 col-sm-1 p-0">
+                  <div class="nav-trigger text-center" id="nav-trigger">
+                    <i class="fa-solid fa-bars"></i>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+          <div class="header__overlay overlay-scale" id="header__overlay">
+            <button type="button" class="header__btnClose" id="header__btn">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <nav class="header__menu">
+              <ul class="nav flex-column text-center" id="nav-menu">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Blog Posts</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">404 page</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Elements</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Landing page</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- my carousel  -->
+      <section class="my-carousel">
+        <div class="my-carousel__content d-flex align-items-center h-100">
+          <div class="container">
+            <div class="my-carousel__info text-left">
+              <h3 class="mb-4">The only thing we love more than food is you!</h3>
+              <p class="pr-lg-5 mt-md-4 mt-3 mb-0">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae
+                sit.Ea ipsum
+                sed consequuntur illum facere.</p>
+              <button type="button" class="mt-sm-5 mt-4 mr-2">Read More <i
+                  class="fa-sharp fa-solid fa-chevron-right ml-2"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
     <!-- about  -->
     <section class="about row">
         <div class="container">
