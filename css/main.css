@@ -1,5 +1,6 @@
 /* ------------GLOBAL------------ */
-
+@import url(./dat.css);
+@import url(./tho.css);
 * {
     margin: 0;
     padding: 0;
@@ -73,6 +74,7 @@ body {
     font-size: 1.95em;
     padding: 0 8px;
     color: #fbfdfb;
+    cursor: pointer;
 }
 
 .header__overlay {
