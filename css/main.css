@@ -202,11 +202,19 @@ h6 {
 }
 
 h3 {
-    font-size: 45px;
+    font-size: 38px;
     line-height: 48px;
     font-weight: 600;
+    color: #232220;
 }
-
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(22 28 45 / 70%);
+    font-family: 'Quicksand', sans-serif;
+}
 /* best  */
 .best {
     background-color: #ff6600;
@@ -241,11 +249,15 @@ h3 {
         min-height: 100%;
     }
 /* right */
+
+.best__right__comment a {
+text-decoration: none;
+}
+
 .best__right {
     padding-left: 30px ;
 }
 .best__right__text h6 {
-    padding-top: 20px;
     color: #fff;
 }
 
@@ -286,7 +298,7 @@ h3 {
 .best__right__comment a {
     padding-top: 20px;
     display: block;
-    color: var(--heading-color);
+    color: #232121;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 15px;
