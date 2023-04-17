@@ -1,0 +1,59 @@
+
+
+
+/*-------------------- REPONSIVE-------------------- */
+/* width  */
+@media screen and (max-width:1190px) {
+    .my-carousel__info h3 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}
+@media screen and (max-width:992px) {
+    .my-carousel__info h3 {
+        font-size: 44px;
+        line-height: 53px;
+    }
+}
+@media screen and (max-width:800px) {
+    .my-carousel {
+        min-height: 600px;
+        height: 600px;
+    }
+    .my-carousel__info h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width:767px) {
+    .header__overlay ul .nav-item .nav-link{
+        font-size: 16px;
+    } 
+}
+@media screen and (max-width:600px) {
+    .header__right form {
+        display: none;
+    }
+}
+@media screen and (max-width:480px) {
+    .my-carousel {
+        min-height: 450px;
+        height: 450px;
+    }
+    .my-carousel__info {
+        max-width: 500px;
+    }
+    .my-carousel__info h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .my-carousel__info button {
+        padding: 10px 21px;
+    }
+}
+/* height  */
+@media screen and (max-height:30.5em) {
+    .header__overlay ul li {
+        line-height: 1.2em;
+    }
+}

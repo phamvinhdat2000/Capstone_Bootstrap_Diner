@@ -36,18 +36,16 @@ body {
 /* -----------PRIVATE------------  */
 
 /* header */
+/* header */
 .header__content {
     padding: 40px 0 20px 0;
 }
-
 .header__logo a {
     font-size: 36px !important;
     font-weight: 700;
     color: #fff;
     font-size: 16px;
 }
-
-
 .header__right form input {
     padding: 10px 50px 10px 20px;
     background: #232220;
@@ -57,7 +55,6 @@ body {
     color: #c2d0da;
     height: 45px;
 }
-
 .header__right form i {
     right: 20px;
     font-size: 15px;
@@ -65,18 +62,14 @@ body {
     cursor: pointer;
     color: #404040;
 }
-
 .header__right .mode i {
     font-size: 30px;
 }
-
 .header__right .nav-trigger {
     font-size: 1.95em;
     padding: 0 8px;
     color: #fbfdfb;
-    cursor: pointer;
 }
-
 .header__overlay {
     position: fixed;
     width: 100%;
@@ -86,22 +79,18 @@ body {
     left: 0;
     background: rgb(6 3 0 / 77%);
 }
-
 .overlay-scale {
     visibility: hidden;
     opacity: 0;
     transform: scale(0.9);
     transition: transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
 }
-
 .overlay-scale.open {
     visibility: visible;
     opacity: 1;
     transform: scale(1);
     transition: transform 0.4s, opacity 0.4s;
-
 }
-
 .header__overlay .header__btnClose {
     width: 40px;
     height: 40px;
@@ -114,17 +103,14 @@ body {
     overflow: hidden;
     color: #fff;
 }
-
 .header__overlay .header__btnClose:focus {
     outline: 5px auto -webkit-focus-ring-color;
 }
-
 .header__overlay nav {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
-
 .header__overlay .nav-item .nav-link {
     font-size: 20px;
     font-weight: 600;
@@ -132,7 +118,6 @@ body {
     display: inline-block;
     transition: all .2s;
 }
-
 .header__overlay .nav-item .nav-link:hover {
     color: #ff6600;
 }
@@ -144,25 +129,19 @@ body {
     min-height: 700px;
     height: 700px;
 }
-
 .my-carousel__info {
     max-width: 600px;
     color: #fff;
 }
-
 .my-carousel__info h3 {
     font-size: 54px;
     line-height: 64px;
     font-weight: 600;
     text-transform: capitalize;
-
 }
-
 .my-carousel__info p {
     line-height: 28px;
-
 }
-
 .my-carousel__info button {
     background-color: transparent;
     color: #fff;
@@ -173,12 +152,12 @@ body {
     border-radius: 6px;
     transition: all .5s;
 }
-
 .my-carousel__info button:focus {
     background-color: #fff;
     color: #ff6600;
     box-shadow: 0 0 0 0.2rem rgba(123, 89, 208, 0.25);
 }
+
 
 
 /* .about */

@@ -2,302 +2,296 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capstone_Diner</title>
-    <!-- font gg -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;600;700&display=swap"
-        rel="stylesheet">
-    <!-- theme icon  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- bootstrap  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capstone_Diner</title>
+  <!-- font gg -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <!-- theme icon  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/font-awesome-line-awesome/css/all.min.css">
+  <!-- bootstrap  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-    <!-- main css -->
-    <link rel="stylesheet" href="./css/main.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <!-- header  -->
-    <header class="position-absolute w-100">
-        <div class="container">
-          <div class="row header__content w-100 align-items-center m-0 px-0">
-            <div class="col-5 col-md-7 col-lg-8 px-0">
-              <div class="header__left">
-                <div class="header__logo">
-                  <a href="#" class="text-decoration-none">Diner</a>
-                </div>
-    
+  <!-- header  -->
+  <header class="position-absolute w-100">
+    <div class="container">
+      <div class="row header__content w-100 align-items-center m-0 px-0">
+        <div class="col-5 col-md-7 col-lg-8 px-0">
+          <div class="header__left">
+            <div class="header__logo">
+              <a href="#" class="text-decoration-none">Diner</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-7 col-md-5 col-lg-4 ml-auto">
+          <div class="header__right row align-items-center">
+            <div class="col-7 col-sm-8 px-0">
+              <div class="header__search position-relative">
+                <form action="#">
+                  <input class="w-100" type="search" placeholder="Search here.." aria-label="Search">
+                  <i class="fa-solid fa-magnifying-glass position-absolute"></i>
+                </form>
               </div>
             </div>
-            <div class="col-7 col-md-5 col-lg-4 ml-auto">
-              <div class="header__right row align-items-center">
-                <div class="col-7 col-sm-8 px-0">
-                  <div class="header__search position-relative">
-                    <form action="#">
-                      <input class="w-100" type="search" placeholder="Search here.." aria-label="Search">
-                      <i class="fa-solid fa-magnifying-glass position-absolute"></i>
-                    </form>
-                  </div>
-    
-                </div>
-                <div class="col-2 col-sm-2 p-0">
-                  <div class="mode text-center m-0">
-                    <i class="fa fa-sun"></i>
-                  </div>
-                </div>
-                <div class="col-3 col-sm-1 p-0">
-                  <div class="nav-trigger text-center" id="nav-trigger">
-                    <i class="fa-solid fa-bars"></i>
-                  </div>
-                </div>
-    
+            <div class="col-2 col-sm-2 p-0">
+              <div class="mode text-center m-0">
+                <i class="fa fa-sun"></i>
+              </div>
+            </div>
+            <div class="col-3 col-sm-1 p-0">
+              <div class="nav-trigger text-center" id="nav-trigger">
+                <i class="fa-solid fa-bars"></i>
               </div>
             </div>
           </div>
-          <div class="header__overlay overlay-scale" id="header__overlay">
-            <button type="button" class="header__btnClose" id="header__btn">
-              <i class="fa-solid fa-xmark"></i>
-            </button>
-            <nav class="header__menu">
-              <ul class="nav flex-column text-center" id="nav-menu">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">Blog Posts</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">404 page</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">Elements</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">Landing page</a>
-                </li>
-              </ul>
-            </nav>
+        </div>
+      </div>
+      <div class="header__overlay overlay-scale" id="header__overlay">
+        <button type="button" class="header__btnClose" id="header__btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <nav class="header__menu">
+          <ul class="nav flex-column text-center" id="nav-menu">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Blog Posts</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">404 page</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Elements</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Landing page</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+  <!-- my carousel  -->
+  <section class="my-carousel">
+    <div class="my-carousel__content d-flex align-items-center h-100">
+      <div class="container">
+        <div class="my-carousel__info text-left">
+          <h3 class="mb-4">The only thing we love more than food is you!</h3>
+          <p class="pr-lg-5 mt-md-4 mt-3 mb-0">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae
+            sit.Ea ipsum
+            sed consequuntur illum facere.</p>
+          <button type="button" class="mt-sm-5 mt-4 mr-2">Read More <i
+              class="fa-sharp fa-solid fa-chevron-right ml-2"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about  -->
+  <section class="about row">
+    <div class="container py-md-5">
+      <div class="about__content py-5">
+        <div class="about__left col-lg-5">
+          <h6>About Us</h6>
+          <h3 class="mb-4">We found our creative space that is open for you.</h3>
+        </div>
+        <div class="about__right col-lg-7 pl-lg-5 mt-lg-0 mt-3">
+          <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+            tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit
+            amet. Lorem ipsum init dolor sit, amet elit. Dolor ipsum non velit, culpa!Lorem ipsum init dolor
+            sit.</p>
+          <p class="mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.
+            Semper at tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum
+            dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- best  -->
+  <section class="best row ">
+    <div class="container-fluid px-lg-0">
+      <div class="row align-items-center ">
+
+        <div class="best__left col-lg-6 px-lg-4 ">
+          <div class="best__img">
           </div>
         </div>
-      </header>
-      <!-- my carousel  -->
-      <section class="my-carousel">
-        <div class="my-carousel__content d-flex align-items-center h-100">
-          <div class="container">
-            <div class="my-carousel__info text-left">
-              <h3 class="mb-4">The only thing we love more than food is you!</h3>
-              <p class="pr-lg-5 mt-md-4 mt-3 mb-0">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae
-                sit.Ea ipsum
-                sed consequuntur illum facere.</p>
-              <button type="button" class="mt-sm-5 mt-4 mr-2">Read More <i
-                  class="fa-sharp fa-solid fa-chevron-right ml-2"></i></button>
+
+        <div class="best__right col-lg-6 px-lg-4 py-lg-3 py-4">
+          <div class="best__right__text">
+            <h6>More than 3000 Restaurants</h6>
+            <h3>Book a table easly at the best price</h3>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis
+              quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
+          </div>
+          <div class="best__right__comment mt-5">
+            <div class="best__right__comment-gd">
+              <div class="icon md-4">
+                <i class="fa-solid fa-thumbs-up"></i>
+              </div>
+              <a href="url">Best Deals</a>
+              <p class="mt-2">Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+            </div>
+            <div class="best__right__comment-gd">
+              <div class="icon md-4">
+                <i class="fa-solid fa-utensils"></i>
+              </div>
+              <a href="url">Best Food</a>
+              <p class="mt-2">Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
             </div>
           </div>
         </div>
-      </section>
-    <!-- about  -->
-    <section class="about row">
-        <div class="container py-md-5">
-            <div class="about__content py-5">
-                <div class="about__left col-lg-5">
-                    <h6>About Us</h6>
-                    <h3 class="mb-4">We found our creative space that is open for you.</h3>
-                </div>
-                <div class="about__right col-lg-7 pl-lg-5 mt-lg-0 mt-3">
-                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
-                        tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit
-                        amet. Lorem ipsum init dolor sit, amet elit. Dolor ipsum non velit, culpa!Lorem ipsum init dolor
-                        sit.</p>
-                    <p class="mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.
-                        Semper at tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum
-                        dolor sit amet.</p>
-                </div>
+
+      </div>
+
+
+    </div>
+
+
+
+  </section>
+  <!-- categories  -->
+  <section class="categories"></section>
+  <!-- product  -->
+  <section class="product py-5">
+    <div class="container py-lg-5 py-md-3 py-3">
+
+      <div class="row justify-content-center">
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="product__item">
+            <div class="product__item__top">
+              <div class="icon">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="info">
+                <p>01</p>
+                <h4><a href="#url">Soup</a></h4>
+              </div>
             </div>
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+          </div>
         </div>
-    </section>
-    <!-- best  -->
-    <section class="best row ">
-        <div class="container-fluid px-lg-0">
-            <div class="row align-items-center ">
 
-                <div class="best__left col-lg-6 px-lg-4 ">
-                    <div class="best__img">
-                    </div>
-                </div>
-        
-                <div class="best__right col-lg-6 px-lg-4 py-lg-3 py-4">
-                    <div class="best__right__text">
-                        <h6>More than 3000 Restaurants</h6>
-                        <h3>Book a table easly at the best price</h3>
-                        <p>Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis
-                            quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
-                    </div>
-                    <div class="best__right__comment mt-5">
-                        <div class="best__right__comment-gd">
-                            <div class="icon md-4">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <a href="url">Best Deals</a>
-                            <p class="mt-2">Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
-                        </div>
-                        <div class="best__right__comment-gd">
-                            <div class="icon md-4">
-                                <i class="fa-solid fa-utensils"></i>
-                            </div>
-                            <a href="url">Best Food</a>
-                            <p class="mt-2">Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-md-0 mt-4">
+          <div class="product__item">
+            <div class="product__item__top">
+              <div class="icon">
+                <i class="fa-sharp fa-solid fa-shield-halved"></i>
+              </div>
+              <div class="info">
+                <p>02</p>
+                <h4><a href="#url">Drinks</a></h4>
 
+              </div>
             </div>
-           
-
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+          </div>
         </div>
-        
 
-
-    </section>
-    <!-- categories  -->
-    <section class="categories"></section>
-    <!-- product  -->
-    <section class="product py-5">
-        <div class="container py-lg-5 py-md-3 py-3">
-
-            <div class="row justify-content-center">
-
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="product__item">
-                        <div class="product__item__top">
-                            <div class="icon">
-                                <i class="fa-solid fa-users"></i>
-                            </div>
-                            <div class="info">
-                                <p>01</p>
-                                <h4><a href="#url">Soup</a></h4>
-                            </div>
-                        </div>
-                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-md-0 mt-4">
-                    <div class="product__item">
-                        <div class="product__item__top">
-                            <div class="icon">
-                                <i class="fa-sharp fa-solid fa-shield-halved"></i>
-                            </div>
-                            <div class="info">
-                                <p>02</p>
-                                <h4><a href="#url">Drinks</a></h4>
-
-                            </div>
-                        </div>
-                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-4">
-                    <div class="product__item">
-                        <div class="product__item__top">
-                            <div class="icon">
-                                <i class="fa-solid fa-temperature-three-quarters"></i>
-                            </div>
-                            <div class="info">
-                                <p>03</p>
-                                <h4><a href="#url">Pizza</a></h4>
-                            </div>
-                        </div>
-                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
-                    <div class="product__item">
-                        <div class="product__item__top">
-                            <div class="icon">
-                                <i class="fa-solid fa-hands-asl-interpreting"></i>
-                            </div>
-                            <div class="info">
-                                <p>04</p>
-                                <h4><a href="#url">Breakfast</a></h4>
-                            </div>
-                        </div>
-                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
-                    <div class="product__item">
-                        <div class="product__item__top">
-                            <div class="icon">
-                                <i class="fa-solid fa-paintbrush"></i>
-                            </div>
-                            <div class="info">
-                                <p>05</p>
-                                <h4><a href="#url">Lunch</a></h4>
-                            </div>
-                        </div>
-                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
-                    <div class="product__item">
-                        <div class="product__item__top">
-                            <div class="icon">
-                                <i class="fa-solid fa-eraser"></i>
-                            </div>
-                            <div class="info">
-                                <p>06</p>
-                                <h4><a href="#url">Dinner</a></h4>
-                            </div>
-                        </div>
-                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
-                    </div>
-                </div>
-
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-4">
+          <div class="product__item">
+            <div class="product__item__top">
+              <div class="icon">
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+              </div>
+              <div class="info">
+                <p>03</p>
+                <h4><a href="#url">Pizza</a></h4>
+              </div>
             </div>
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+          </div>
         </div>
-    </section>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+          <div class="product__item">
+            <div class="product__item__top">
+              <div class="icon">
+                <i class="fa-solid fa-hands-asl-interpreting"></i>
+              </div>
+              <div class="info">
+                <p>04</p>
+                <h4><a href="#url">Breakfast</a></h4>
+              </div>
+            </div>
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+          <div class="product__item">
+            <div class="product__item__top">
+              <div class="icon">
+                <i class="fa-solid fa-paintbrush"></i>
+              </div>
+              <div class="info">
+                <p>05</p>
+                <h4><a href="#url">Lunch</a></h4>
+              </div>
+            </div>
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+          <div class="product__item">
+            <div class="product__item__top">
+              <div class="icon">
+                <i class="fa-solid fa-eraser"></i>
+              </div>
+              <div class="info">
+                <p>06</p>
+                <h4><a href="#url">Dinner</a></h4>
+              </div>
+            </div>
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 
-    <!-- number  -->
-    <section class="number"></section>
-    <!-- videoFood -->
-    <section class="videoFood"></section>
-    <!-- blog  -->
-    <section class="blog"></section>
-    <!-- testimonial  -->
-    <section class="testimonial"></section>
-    <!-- footer  -->
-    <footer></footer>
+  <!-- number  -->
+  <section class="number"></section>
+  <!-- videoFood -->
+  <section class="videoFood"></section>
+  <!-- blog  -->
+  <section class="blog"></section>
+  <!-- testimonial  -->
+  <section class="testimonial"></section>
+  <!-- footer  -->
+  <footer></footer>
 
 
 
 
 
-    <!-- backToTop  -->
-
-
-
-
-
-
+  <!-- backToTop  -->
 
 
 
@@ -308,30 +302,49 @@
 
 
 
-    <!---------------------- JS ---------------------->
 
-    <!-- thuVienJquery -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
-        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-    <!-- waypoint  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/jquery.waypoints.js"></script>
-    <!-- counterUp  -->
-    <script src="./js/jquery.counterup.min.js"></script>
-    <!-- bootstrap  -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-        crossorigin="anonymous"></script>
-    <!-- main js  -->
-    <script>
-        $('.counter').counterUp({
-            time: 3000
-        }
-        );
 
-    </script>
+
+
+
+
+  <!---------------------- JS ---------------------->
+
+  <!-- thuVienJquery -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <!-- waypoint  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/jquery.waypoints.js"></script>
+  <!-- counterUp  -->
+  <script src="./js/jquery.counterup.min.js"></script>
+  <!-- bootstrap  -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <!-- main js  -->
+  <script>
+    // ------------- open/close menu -------------
+    var navTrigger = document.getElementById("nav-trigger")
+    var overlay = document.getElementById("header__overlay");
+    var btnClose = document.getElementById("header__btn");
+    var navMenu = document.getElementById("nav-menu");
+    var navList = navMenu.getElementsByTagName("li");
+    btnClose.onclick = function () {
+      overlay.classList.remove("open");
+      for (var i = 0; i < navList.length; i++) {
+        navList[i].classList += " py-3";
+      };
+    };
+    navTrigger.onclick = function () {
+      overlay.classList += " open";
+      for (var i = 0; i < navList.length; i++) {
+        navList[i].classList.remove("py-3");
+      };
+    };
+  </script>
 </body>
 
 </html>
