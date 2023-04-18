@@ -1,5 +1,46 @@
-
-
+/* categories  */
+.categories{
+    background-color: #282828;
+}
+.categories__title h3{
+    color: #eee;
+}
+.categories__product .categories__img img{
+    border-radius: 6px;
+}
+.categories__product .categories__img img:hover{
+    opacity: 0.85;
+    transition: all .4s;
+}
+.categories__product .categories__img::after{
+    content: "";
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.53) 69%, rgba(0, 0, 0, 0.76) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    border-radius: 6px;
+}
+.categories__product .categories__info{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    transform: translate3d(0,10%,0);
+}
+.categories__product .categories__info h4{
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+.categories__product .categories__info h6{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #ffc600;
+    letter-spacing: 1px;
+}
 
 /*-------------------- REPONSIVE-------------------- */
 /* width  */
@@ -7,6 +48,12 @@
     .my-carousel__info h3 {
         font-size: 48px;
         line-height: 58px;
+    }
+}
+@media screen and (max-width:1080px) {
+    .title-bottom{
+        font-size: 32px !important;
+        line-height: 40px !important;
     }
 }
 @media screen and (max-width:992px) {
@@ -24,6 +71,13 @@
         font-size: 40px;
         line-height: 50px;
     }
+    .categories__product .categories__info h4{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .categories__product .categories__info h6{
+        font-size: 16px;
+    }
 }
 @media screen and (max-width:767px) {
     .header__overlay ul .nav-item .nav-link{
@@ -33,6 +87,13 @@
 @media screen and (max-width:600px) {
     .header__right form {
         display: none;
+    }
+    .title-top{
+        font-size: 16px !important;
+    }
+    .title-bottom{
+        font-size: 30px !important;
+        line-height: 38px !important;
     }
 }
 @media screen and (max-width:480px) {
@@ -50,6 +111,17 @@
     .my-carousel__info button {
         padding: 10px 21px;
     }
+    .title-bottom{
+        font-size: 26px !important;
+        line-height: 36px !important;
+    }
+@media screen and (max-width:375px) {
+    .title-bottom{
+        font-size: 24px !important;
+        line-height: 34px !important;
+    }
+    
+}
 }
 /* height  */
 @media screen and (max-height:30.5em) {

@@ -30,7 +30,9 @@ body {
     line-height: 48px;
     font-weight: 600;
 }
-
+a,a:hover{
+    text-decoration: none;
+}
 
 
 /* -----------PRIVATE------------  */
@@ -69,6 +71,7 @@ body {
     font-size: 1.95em;
     padding: 0 8px;
     color: #fbfdfb;
+    cursor: pointer;
 }
 .header__overlay {
     position: fixed;
