@@ -3,6 +3,7 @@
 .product {
     background-color: #fff;
 }
+
 .product__item__top {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -36,7 +37,7 @@
 .product__item:hover .icon {
     color: #fff;
     background-color: #ff6600;
-
+    transition: .60s;
 }
 
 
@@ -55,9 +56,120 @@
 
 .info a:hover {
     color: #ff6600;
+    transition: .3s;
 }
 
+/* testtimonial  */
+.testimonial {
+    background-color: #fff;
+}
+
+.testimonial__body {
+    text-align: center;
+}
+
+.testimonial__item img {
+    width: 85px;
+    height: 85px;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.testimonial__body i {
+    display: block;
+    font-size: 22px;
+    color: #ff6600;
+}
+
+.testimonial__body a {
+    left: 0px;
+    top: 0px;
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.testimonial__item .OMG {
+    font-size: 24px;
+    line-height: 36px;
+    color: #232121;
+    font-weight: 600;
+}
+
+.OMG::before {
+    content: open-quote;
+}
+
+.OMG::after {
+    content: close-quote;
+}
+
+.testimonial .slick-dots li button:before {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    color: #ff6600;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+}
+
+.testimonial__item h3 {
+        margin: 0;
+        font-weight: 600;
+        font-size: 20px !important;
+}
+.container .testimonial__body {
+    max-width: 700px;
+    margin: auto;
+}
+/* backtotop  */
+.backtotop {
+    position: fixed;
+    display: block;
+    background-color: #ff6600;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 50%;
+    bottom: 55px;
+    right: 20px;
+    opacity: 0;
+}
+
+.backtotop:hover {
+    color: #fff;
+}
+
+.cd-top--is-visible {
+    opacity: 1;
+}
+
+
 /* REPONSIVE  */
+
+@media (max-width: 1080px) {
+    .class__h3 {
+        font-size: 32px !important;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .product__item__top .info h4 a {
+        font-size: 20px;
+    }
+}
 
 @media (max-width: 1080px) {
 .class__h3 {
@@ -66,8 +178,9 @@
 }
 }
 
-@media (max-width: 1080px) {
-.product__item__top .info h4 a {
-    font-size: 20px;
+@media (max-width: 675px) {
+.testimonial__item .OMG {
+    font-size: 22px;
+    line-height: 32px;
 }
 }
