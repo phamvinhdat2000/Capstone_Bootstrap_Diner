@@ -164,12 +164,6 @@ a,a:hover{
 
 
 /* .about */
-.about {
-    background-color: #fff;
-}
-
-
-
 .class__h6 {
     font-size: 20px;
     font-weight: 400;
@@ -184,14 +178,14 @@ a,a:hover{
     font-size: 38px;
     line-height: 48px;
     font-weight: 600;
-    color: #232220;
+    color: #eee;
 }
 .class__p {
     margin: 0;
     padding: 0;
     font-size: 18px;
     line-height: 28px;
-    color: rgb(22 28 45 / 70%);
+    color: #c2d0da;;
     font-family: 'Quicksand', sans-serif;
 }
 /* best  */

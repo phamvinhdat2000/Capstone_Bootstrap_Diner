@@ -1,7 +1,6 @@
 /* product */
-
-.product {
-    background-color: #fff;
+.product__item__top .info a {
+    color: #eee;
 }
 
 .product__item__top {
@@ -25,9 +24,9 @@
     transition: all 0.5s ease 0s;
     border-radius: 8px;
     box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
-    background-color: #fff;
+    background: #232220; 
     position: relative;
-    border: 1px solid #eee
+    border: 1px solid rgb(255 255 255 / 10%);
 }
 
 .icon {
@@ -54,7 +53,7 @@
     text-decoration: none;
 }
 
-.info a:hover {
+.info h4 a:hover {
     color: #ff6600;
     transition: .3s;
 }
@@ -63,10 +62,6 @@
 
 
 /* videoFood  */
-
-.videoFood {
-    background-color: #fff;
-}
 
 .videoFood .video__info {
     background: url(../img/banner3.jpg);
@@ -223,10 +218,6 @@ div#small-dialog iframe {
 
 
 /* testtimonial  */
-.testimonial {
-    background-color: #fff;
-}
-
 .testimonial__body {
     text-align: center;
 }
@@ -261,7 +252,7 @@ div#small-dialog iframe {
 .testimonial__item .OMG {
     font-size: 24px;
     line-height: 36px;
-    color: #232121;
+    color: #eee;
     font-weight: 600;
 }
 
@@ -362,4 +353,8 @@ div#small-dialog iframe {
         min-height: 200px;
     }
 }
-
+/* 
+@media (max-width: 992px)
+.agent-block-image {
+    min-height: 200px;
+} */
