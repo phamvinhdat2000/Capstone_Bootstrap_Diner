@@ -196,7 +196,10 @@ a,a:hover{
     font-size: 38px;
     line-height: 48px;
     font-weight: 600;
-    color: #232220;
+    color: #eee;
+}
+.dark .class__h3{
+    color: #232121;
 }
 .class__p {
     margin: 0;
