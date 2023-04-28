@@ -1,9 +1,7 @@
 /* product */
-.product__item__top .info a {
-    color: #eee;
-}
-.dark .product__item__top .info a{
-    color: #232121;
+
+.product {
+    background-color: #fff;
 }
 
 .product__item__top {
@@ -29,11 +27,7 @@
     box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
     background: #232220; 
     position: relative;
-    border: 1px solid rgb(255 255 255 / 10%);
-}
-.dark .product__item{
-    background:#fff ;
-    border: 1px solid #eee;
+    border: 1px solid #eee
 }
 
 .icon {
