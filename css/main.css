@@ -14,6 +14,10 @@ body {
     color: #c2d0da;
     font-family: 'Quicksand', sans-serif;
 }
+body.dark{
+    background-color: #fff;
+    color:rgba(22, 28, 45, 0.7) ;
+}
 
 .title-top {
     font-size: 20px;
@@ -30,6 +34,9 @@ body {
     line-height: 48px;
     font-weight: 600;
 }
+.dark .title-bottom{
+    color: #232121;
+}
 ul {
     list-style: none;
 }
@@ -40,7 +47,6 @@ a,a:hover{
 
 /* -----------PRIVATE------------  */
 
-/* header */
 /* header */
 .header__content {
     padding: 40px 0 20px 0;
@@ -60,6 +66,11 @@ a,a:hover{
     color: #c2d0da;
     height: 45px;
 }
+.dark .header__right form input{
+    background: #fff;
+   border:1px solid #fff ;
+   color: rgba(22, 28, 45, 0.7);
+}
 .header__right form i {
     right: 20px;
     font-size: 15px;
@@ -69,6 +80,10 @@ a,a:hover{
 }
 .header__right .mode i {
     font-size: 30px;
+    color: #eee;
+}
+.header__right .mode i:last-of-type{
+    display: none;
 }
 .header__right .nav-trigger {
     font-size: 1.95em;
@@ -158,7 +173,7 @@ a,a:hover{
     border-radius: 6px;
     transition: all .5s;
 }
-.my-carousel__info button:focus,.btn-contact-left:focus,.my-carousel__info button:hover, .btn-contact-left:hover{
+.my-carousel__info button:focus,.my-carousel__info button:hover, .btn-contact-left:hover{
     background-color: #fff;
     color: #ff6600;
     box-shadow: 0 0 0 0.2rem rgba(123, 89, 208, 0.25);
@@ -167,12 +182,6 @@ a,a:hover{
 
 
 /* .about */
-.about {
-    background-color: #fff;
-}
-
-
-
 .class__h6 {
     font-size: 20px;
     font-weight: 400;
@@ -187,15 +196,21 @@ a,a:hover{
     font-size: 38px;
     line-height: 48px;
     font-weight: 600;
-    color: #232220;
+    color: #eee;
+}
+.dark .class__h3{
+    color: #232121;
 }
 .class__p {
     margin: 0;
     padding: 0;
     font-size: 18px;
     line-height: 28px;
-    color: rgb(22 28 45 / 70%);
+    color: #c2d0da;;
     font-family: 'Quicksand', sans-serif;
+}
+.dark .class__p{
+    color: rgba(22, 28, 45, 0.7);
 }
 /* best  */
 .best {
@@ -214,7 +229,7 @@ a,a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 620px;
     position: relative;
     z-index: 1;
 }
@@ -243,7 +258,7 @@ text-decoration: none;
     color: #fff;
 }
 
-.best__right__text p {
+.best .best__right__text p {
     color: #ffdfc9;
 }
 
@@ -280,11 +295,14 @@ text-decoration: none;
 .best__right__comment a {
     padding-top: 20px;
     display: block;
-    color: #232121;
+    color: #eee;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 15px;
     font-size: 20px;
+}
+.dark .best__right__comment a{
+    color: #232121;
 }
 
 .best__right__comment p {
