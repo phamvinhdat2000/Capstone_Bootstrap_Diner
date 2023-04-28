@@ -349,14 +349,14 @@ div#small-dialog iframe {
         line-height: 32px;
     }
 }
-
+/* 
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
         margin-right: auto;
         margin-left: auto;
     }
-}
+} */
 @media all and (max-width:992px) {
     .best__img {
         min-height: 200px;
